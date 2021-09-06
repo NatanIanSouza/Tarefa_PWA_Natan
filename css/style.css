@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    background-color: #e2effa;
+}
+
+.bg-natan-souza {
+    background: linear-gradient(to bottom, #e17055, #fab1a0, #fdcb6e);
+    height: 50vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-light{
+    background: linear-gradient(to bottom, #67aeb6, #bdc3c7, #bfd6db);
+    height: 50vh;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+.bg-dark {
+    background: linear-gradient(to bottom, #2d3436, #2c3e50, #34495e);
+    height: 50vh;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.bg-menu {
+    background: linear-gradient(to left, #b64b03, darkred) !important;
+    color: #fff;
+}
+
+.bg-rodape {
+    background: linear-gradient(to right, #b64b03, darkred) !important;
+    color: #fff;
+}
+
+.bg-menu-dark {
+  background: linear-gradient(to bottom, #2d3436, #2c3e50, #34495e) !important;
+  color: #fff;
+}
+
+.bg-rodape-dark {
+  background: linear-gradient(to bottom, #2d3436, #2c3e50, #34495e) !important;
+  color: #fff;
+}
+
+.bg-menu-light {
+  background: linear-gradient(to bottom, #67aeb6, #bdc3c7, #bfd6db) !important;
+  color: #000;
+}
+
+.bg-rodape-light {
+  background: linear-gradient(to bottom, #67aeb6, #bdc3c7, #bfd6db) !important;
+  color: #000;
+}
+
+.modal-body{
+  background: aliceblue;
+  color: #000;
+}
+
+#logo {
+    border-radius: 2.5rem;
+}
+
+.icon-social {
+    font-size: 2.5rem;
+}
+
+.btn-personal {
+    color: #212529;
+    background-color: #e47328;
+    border-color: #fdcb6e;
+  }
+  
+  .btn-personal:hover {
+    color: #212529;
+    background-color: #fdcb6e;
+    border-color: #997127;
+  }
+  
+  .btn-personal:focus, .btn-personal.focus {
+    box-shadow: 0 0 0 0.2rem rgba(91, 25, 9, 0.5);
+  }
+  
+  .btn-personal.disabled, .btn-personal:disabled {
+    color: #212529;
+    background-color: #b64b03;
+    border-color: #997127;
+  }
+  
+  .btn-personal:not(:disabled):not(.disabled):active, .btn-personal:not(:disabled):not(.disabled).active,
+  .show > .btn-personal.dropdown-toggle {
+    color: #212529;
+    background-color: #e84118;
+    border-color: #997127;
+  }
+  
+  .btn-personal:not(:disabled):not(.disabled):active:focus, .btn-personal:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-personal.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(91, 25, 9, 0.5);
+  }
+
+#bike {
+    border-radius: 2.5rem;
+}
